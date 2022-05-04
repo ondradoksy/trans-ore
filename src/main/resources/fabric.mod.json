@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "trans_ore",
+  "version": "${version}",
+
+  "name": "Trans Ore",
+  "description": "Adds trans ore to Minecraft.",
+  "authors": [
+    "ondradoksy"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/trans_ore/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ondradoksy.trans_ore.TransOre"
+    ]
+  },
+  "mixins": [
+    "trans_ore.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
