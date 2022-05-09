@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "trans_ore:transoreblock"
+    "item": "trans_ore:trans_ore_block"
   },
-  "result": "minecraft:stone",
+  "result": "trans_ore:trans_ingot",
   "experience": 0.15,
   "cookingtime": 200
 }

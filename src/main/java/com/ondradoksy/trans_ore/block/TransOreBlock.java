@@ -22,7 +22,7 @@ public class TransOreBlock extends Block {
 
     @Override
     public void appendTooltip(ItemStack itemStack, BlockView world, List<Text> tooltip, TooltipContext tooltipContext) {
-        tooltip.add( new TranslatableText("block.trans_ore.transoreblock.tooltip").formatted(Formatting.GRAY));
+        tooltip.add( new TranslatableText("block.trans_ore.trans_ore_block.tooltip").formatted(Formatting.GRAY));
     }
 
     @Override

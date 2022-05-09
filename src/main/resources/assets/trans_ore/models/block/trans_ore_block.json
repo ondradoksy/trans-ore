@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "trans_ore:block/transoreblock"
+    "all": "trans_ore:block/trans_ore_block"
   }
 }

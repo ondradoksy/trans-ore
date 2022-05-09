@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "trans_ore:transoreblock"
+    "trans_ore:trans_ore_block"
   ]
 }

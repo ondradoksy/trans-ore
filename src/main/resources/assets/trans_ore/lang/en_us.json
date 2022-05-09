@@ -1,4 +1,5 @@
 {
-  "block.trans_ore.transoreblock": "Trans Ore",
-  "block.trans_ore.transoreblock.tooltip": "Completely useless"
+  "block.trans_ore.trans_ore_block": "Trans Ore",
+  "block.trans_ore.trans_ore_block.tooltip": "Completely useless",
+  "item.trans_ore.trans_ingot": "Trans Ingot"
 }

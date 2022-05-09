@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "trans_ore:block/trans_ore_block" }
+  }
+}

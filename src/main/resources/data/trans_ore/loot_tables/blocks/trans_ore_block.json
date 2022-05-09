@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "trans_ore:transoreblock"
+          "name": "trans_ore:trans_ore_block"
         }
       ],
       "conditions": [
