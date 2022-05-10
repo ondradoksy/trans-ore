@@ -16,7 +16,7 @@ import java.util.Random;
 
 public class TransOreBlock extends Block {
     public TransOreBlock(Settings settings) {
-        super(settings.ticksRandomly());
+        super(settings.ticksRandomly()); // enable random ticks
 
     }
 
@@ -25,8 +25,10 @@ public class TransOreBlock extends Block {
         tooltip.add( new TranslatableText("block.trans_ore.trans_ore_block.tooltip").formatted(Formatting.GRAY));
     }
 
+    // Still deprecated but it uses the same thing as saplings
     @Override
-    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+    public void randomTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         if (world.getClosestPlayer(pos.getX(), pos.getY(), pos.getZ(), 10.0F, false) != null  && random.nextDouble() < 0.41F) world.breakBlock(pos, true);
     }
+
 }
